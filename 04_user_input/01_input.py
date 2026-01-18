@@ -1,3 +1,5 @@
-x = input("Enter a number: ")
-print(x)
-name = input("Enter your name: ")
+name = input("enter your name: ")
+gender = input("enter your gender: ")
+print("name of the user:",name)
+print("user's gender is:",gender)
+
