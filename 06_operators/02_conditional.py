@@ -1,9 +1,12 @@
-x = 7 
-y = 15
-
-print(x>7)
-print(x>=7)
-print(x<=7)
-print(x==7)
-print(x!=8)
-print("Is x + y equal to 22?",x + y == 22)
+x = 8
+y = 10
+print(x>4)
+print(x>=4)
+print(x>=8)
+print(y>x)
+print(x>y)
+print(x==4)
+print(x==8)
+print(y==4)
+print(y==10)
+print(x!=4)

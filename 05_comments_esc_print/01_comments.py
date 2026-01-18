@@ -2,5 +2,5 @@
 
 ''' multi line comment is done by
 yo whats good my nigga 
-''' 
-# just make sure that there is no ''' between ''' '''
+''' # """ can be used too"""
+# just make sure that there is no ''' between ''' ''
