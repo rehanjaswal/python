@@ -1,13 +1,12 @@
-x=int(input("enter your lucky number: "))
-match x:
-    case 1: 
+x = int(input("enter a number between 1 and 10: "))
+
+match (x):
+    case 1:
         print("you won an iPhone 17")
-    case 2:
-        print("you won a united home kit")
-    case 7: 
-        print("you won a ronaldo poster")
+    case 7:
+        print("you won a Nikon DSLR")
     case 10:
-        print("you won a rigged world cup trophy")
+        print("you won a World Cup Trophy")
     case _:
         print("better luck next time")
     
