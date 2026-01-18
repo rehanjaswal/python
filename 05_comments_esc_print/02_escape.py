@@ -1,10 +1,7 @@
-# escape sequence characters are used to include special characters in string.
+# escape sequences are used to add special characters
+# \n newline, \' for ', \" for ", \t for tab etc
 
-'''\n newline \\ backslash \' single quote \" double quote \t tab '''
-# koi bhi esc seq char backlash se start hoga 
-
-print("Hello /Rehan/")
-print("Hello \\Rehan\\")
-print("whats up my nigga\nman shut yo bitch ass up")
-
-print("he's a maniac, he thinks he's the best\nbitch i am the best\ni am the GOAT\nI will become the best of my bloodline\nI am \"REHAN JASWAL\"")
+print("yo\nwhat's good")
+print("rehan ' is the goat") # you can play this cheeky game too (adding ' inside "" and vice versa {done in line 6})
+print('rehan " is the goat')
+print("man united are the \"GOATs\" of football")

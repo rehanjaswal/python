@@ -1,8 +1,6 @@
-print("Rehan Jaswal","Male","18","ICE","CoD")
-# by default vscode separates all strings with a single space
-# to change/config it, use sep= 
-print("Rehan Jaswal","Male","18","ICE","CoD", sep = " x ")
+print("rehan","19","code","ball","chaos")
+#  by default python separates elements with a single space
+print("rehan","19","code","ball","chaos",sep = " x ")
 
-print("Hello Rehan", end = ",")
-print("How are you", end="?")
-
+print("rehan is the goat", end = ". ")
+print("it's not an opinion but rather a goddamn fact")

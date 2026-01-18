@@ -1,10 +1,6 @@
-# comments are used to convey some message to fellow developer or write some notes in between the code
-# use # symbol or ctrl + / (forwardslash)
-# this is a single line comment
+# comment out a statemnt by # or cmd/ctrl + / (forward slash)
 
-'''this is a multi line comment'''
-
-'''i will become the best of my bloodline
-it doesn't matter if i sweat, bleed or die.
-i will do it, not to show the world, not to prove someone wrong, but to prove myself wrong'''
-
+''' multi line comment is done by
+yo whats good my nigga 
+''' 
+# just make sure that there is no ''' between ''' '''
