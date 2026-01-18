@@ -1,17 +1,12 @@
-Name = "Akshita Sharma" 
-print(Name)
-print(type(Name))
+name = "rehan"
+print("name =",name) # in python, a space is added when you type a comma
+print(type(name))
 
-Age = 18
-print(Age)
-print(type(Age))
+age = 19
+print("age =", age)
+print(type(age))
 
-College = "SRMIST"
-print(College)
-print(type(College))
-
-CGPA = 9.2     #floating point number
-print(CGPA)
-print(type(CGPA))
-
+rehan_is_the_goat = True
+print("rehan_is_the_goat, True or False? ",rehan_is_the_goat)
+print(type(rehan_is_the_goat))
 
