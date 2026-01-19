@@ -12,3 +12,4 @@ c1 = "arsenal"
 
 print(f"my favourite club is {a} and my rival club is {a1}")
 print(f"my favourite club is {c} and my rival club is {c1}")
+    

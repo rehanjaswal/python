@@ -1,14 +1,11 @@
-#  two ways you can end up making an infinite looop
+# first example
 
-# first
-
-# i=1
-# while i<7:
+# i = 7
+# while (i<10):
 #     print(i)
 
+#  second example
 
-# second
-
-i = 7
+i = 10
 while True:
     print(i)
