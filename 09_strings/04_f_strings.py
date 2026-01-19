@@ -11,3 +11,6 @@ print(template1)                                                        # prefer
 template2 = ("my favourite club is {} and my rival club is {}")
 
 print(template2.format(a3,r3))
+
+print(ord('A'))
+print(chr(65))
