@@ -1,7 +1,7 @@
 import math
-print(math.sqrt(49))
-import moduleX
-moduleX.wtf()
 import requests
-hairy_ninja = requests.get("https://x.com/rehanjaswal")
-print(hairy_ninja.text)          #provides the html code of the page
+# x = int(input("enter a number: "))
+# # print("square root of",x,"is",math.sqrt(x))
+r = requests.get("https://x.com/rehanjaswal")
+# print(r.text)
+print(r.status_code)
