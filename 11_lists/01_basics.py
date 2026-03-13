@@ -1,42 +1,51 @@
-# nums = [1, 2, 3, 4]
-# print(nums)
-# nums.append(5)
-# print(nums)
-# nums.append(6)
-# print(nums)
+# midSemMarks = [90, 95, 88, 64, 78]
+# endSemMarks = [82, 89, 69, 98, 85]
 
-# even = [2, 4, 6, 8, 10]
-# even.pop()    # removes last element by default but if i wanna remove something specific, i just need to write the index of the shit inside the paranthesis
-# print(even)
-# even.pop(1) # this means i wanna remove the element present on index 1 that is 4 in this case
-# print(even)
+# print(midSemMarks)
+# print(endSemMarks)
 
-# odd = [1, 3, 5, 7, 9, 11]
-# odd.insert(10)
+# midSemMarks.append(endSemMarks)
+# print(midSemMarks)   # outputs [90, 95, 88, 64, 78, [82, 89, 69, 98, 85]]
 
-# rehan = ["code", "ball", "chaos"]
-# rehan.insert(0, "love")   # list.insert(index, element)
-# print(rehan)
+# # midSemMarks.append(82, 89, 69, 98, 85) # this will throw an error as append only takes one argument, ive given 5 here.
 
-# irl use case can be prioritizing a particular task like i just did above. urdgent task goes to the very top. eg love is above everything for me
-# adding next song in the playlist without disturbing the order of the already existing songs
+# endSemMarks.append(2)
+# print(endSemMarks)
 
-# IMPORTANT: if index is larger than length list, then the element is added at the last
+list = [1, 2, 3, 4, 5, 6, 7]
 
-# social_media = ["insta", "whatsapp", "twitter"]
-# social_media.insert(20, "facebook")
-# print(social_media)
+# list.insert(index, value)  (i, x)
+# if (i < len(list)) then insert x at the start of the list
+# if (i >= len(list)) then insert x at the end of the list
+
+# list.insert(6, 8)
+# print(list)
+
+# listX = [1, 2, 3, 4]
+# listX.insert(-2, 67) 
+# print(listX)         # [1, 2, 67, 3, 4]
+
+# listX.remove(67)
+# print(listX)
+
+# listX.reverse()
+# print(listX)
 
 
-# students = ["a", "b", "c"]
-# rank_of_b = students.index("b")
-# print("rank of b is",rank_of_b)
+# listY = [67, 69, 105, 115]
+# listY.sort()
+# print(listY)
 
-# irl use can be a hospital queue, which patient is in which room, finding rank of students etc
+list1 = [56, 78, 88, 95]
 
-# food = ["chocolate", "biryani", "crossiant", "samosa", "pizza", "burger", "pizza", "chocolate", "biryani", "samosa", "samosa", "pizza"]
-# duplicate = food.count("chocolate")
-# print(duplicate)
+x = list1.pop()
+print(list1)
+print(x)         # pop returns the removed value
+# without passing an argument, pop removes the last element
 
-#  irl use can be counting number of users of a subscription, identifying if an element is present multiple times, voting system
+y = list1.pop(1)   # pop(index)
+print(list1)
+print(y)
 
+list2 = [1, 2, 3, 7, 67]
+print(list2.pop(1))  # prints 2 and not the resulted list after removing 2, as pop always returns the removed value
