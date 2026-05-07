@@ -128,7 +128,7 @@
 # String = "My Computer Course"
 
 # x = slice(9)    # slice(none, 9, none) 
-# print(String[x])    # My Comput
+# print(String[x])    # My Computer
 
 # x1=slice(-1,-9)    # start = -1 stop = -9 and step = +1 by default
 # print(String[x1])
